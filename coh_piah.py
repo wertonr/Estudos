@@ -140,7 +140,7 @@ def calcula_assinatura(texto):
     return [wal_calc, ttr_calc, hlr_calc, sal_calc, sac_calc, pal_calc]
 
 def avalia_textos(textos, ass_cp):
-    '''IMPLEMENTAR. Essa funcao recebe uma lista de textos e uma assinatura ass_cp e deve devolver o numero (1 a n) do texto com maior probabilidade de ter sido infectado por COH-PIAH.'''
+    '''Essa funcao recebe uma lista de textos e uma assinatura ass_cp e deve devolver o numero (1 a n) do texto com maior probabilidade de ter sido infectado por COH-PIAH.'''
     assinatura = []
     compara = []
     for texto in textos:
